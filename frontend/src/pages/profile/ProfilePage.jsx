@@ -29,6 +29,7 @@ const ProfilePage = () => {
 
 	const { follow, isPending } = useFollow();
 	const { data: authUser } = useQuery({ queryKey: ["authUser"] });
+	// console.log(POSTS);
 
 	const {
 		data: user,
